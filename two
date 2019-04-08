@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+
+
+int main(void){
+	int a = 5;
+	std::string b = "Hello";
+	char c = 'a';
+	double d = 3.141592;	
+	const int e = 10;
+	bool g = false;
+	
+	std::cout << a << std::endl;
+	std::cout << b << std::endl;
+	std::cout << c << std::endl;
+	std::cout << d << std::endl;
+	
+	a = 50;
+	std::cout << a << std::endl;	
+	std::cout << e << std::endl; 
+	int f;
+}	
+return 0;
+}
